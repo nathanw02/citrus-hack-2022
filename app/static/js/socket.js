@@ -12,16 +12,37 @@ socket.on('connect', function() {
 });
 
 socket.on('win', function(data) {
-    console.log(data);
     inputs[currentInput].disabled = true;
-    //do something
+    let animalTag = document.getElementById('animal');
+    let factTag = document.getElementById('fact');
+    let animal = data.animal;
+    let pic = document.getElementById('picture');
+    pic.src = data.data.picture;
+    animalTag.innerText = 'Nice! Well done! The animal is: ' + animal;
+    factTag.innerText = data.data.fact;
 
-    //display win
+    if(data.data.endangered === 'true'){
+        let endangeredTag = document.getElementById('endangered');
+        endangeredTag.innerText = 'This animal is endangered';
+        endangeredTag.setAttribute('style', 'color: red');
+    }
+});
 
-    //display animal
-    //fun fact
-    //endangered not yes
+socket.on('lose', function(data){
+    inputs[currentInput].disabled = true;
+    let animalTag = document.getElementById('animal');
+    let factTag = document.getElementById('fact');
+    let animal = data.animal;
+    let pic = document.getElementById('picture');
+    pic.src = data.data.picture;
+    animalTag.innerText = 'The correct animal was: ' + animal;
+    factTag.innerText = data.data.fact
 
+    if(data.data.endangered === 'true'){
+        let endangeredTag = document.getElementById('endangered');
+        endangeredTag.innerText = 'This animal is endangered';
+        endangeredTag.setAttribute('style', 'color: red');
+    }
 });
 
 socket.on('matchResponse', function(match) {
@@ -73,7 +94,9 @@ socket.on('matchResponse', function(match) {
     
     inputs[currentInput].disabled = true;
     currentInput++;
-    inputs[currentInput].disabled = false;
+    if(currentInput < 5){
+        inputs[currentInput].disabled = false;
+    }
     
     /*
      <p style="display: inline; color:greenyellow">hair</p>

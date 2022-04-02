@@ -22,3 +22,11 @@ div[id^="match-"] {
 p {
     margin-left: 10px;
 }
+
+.finish {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}

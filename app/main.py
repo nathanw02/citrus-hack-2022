@@ -6,7 +6,7 @@ from flask_socketio import SocketIO, emit
 app = Flask(__name__)
 socketio = SocketIO(app)
 
-MAX_GUESSES = 10
+MAX_GUESSES = 5
 sessions = {}
 
 with open('citrus-hack-2022\\app\\animals.json') as json_file:
@@ -35,14 +35,22 @@ def guess(data):
 
     animalGuess = data['guess']
 
-    if session.guesses >= MAX_GUESSES:
-        return emit('gameOver', {'data': session.animal})
+    if animalGuess == session.animal:
+        return emit('win', {
+            'animal': session.animal, 
+            'data': animals[session.animal]
+        })
+
+    if session.guesses >= MAX_GUESSES-1:
+        return emit('lose', {
+            'animal': session.animal, 
+            'data': animals[session.animal]
+        })
 
     if animalGuess not in animals:
         return emit('error', {'error': 'Invalid input'})
     
-    if animalGuess == session.animal:
-        return emit('win', {'data': 'Correct'})
+    
 
     emit('matchResponse', session.match(data['guess']))
 
@@ -59,8 +67,7 @@ class Session:
         return random.choice(list(animals))
 
     def match(self, guess):
-        if guess == self.animal:
-            return {'match': 'correct'}
+
 
         animalCorrect = animals[self.animal]
         animalGuess = animals[guess]
