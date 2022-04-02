@@ -27,7 +27,7 @@
         <div class="row center">
             <div class="col-md-4" style="width: 500px;">
                 <div class="ui-widget">
-                    <input id="guess" type="text">
+                    <input id="guess" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess').value);">    
                 </div>
             </div>
             
