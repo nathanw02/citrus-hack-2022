@@ -4,8 +4,6 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'the quick brown fox jumps over the lazy dog'
-app.config['CORS_HEADERS'] = 'Content-Type'
 socketio = SocketIO(app)
 
 MAX_GUESSES = 10
