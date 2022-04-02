@@ -1,4 +1,4 @@
-#guess {
+input[id^="guess-"]{
     margin-left: 10px; 
     margin-bottom: 25px; 
     outline: none; 
@@ -8,14 +8,17 @@
     border-style: solid; 
     border-radius: 10px; 
     background-color: black; 
-    font-size: 40px; 
+    font-size: 40px !important; 
     letter-spacing: 2px; 
     color:white; 
     text-align: center;
 }
 
-#match {
+div[id^="match-"] {
     margin-left: 75px; 
     font-size: 22px; 
-    word-spacing: 25px;
+}
+
+p {
+    margin-left: 10px;
 }

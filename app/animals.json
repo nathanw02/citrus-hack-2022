@@ -16,7 +16,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "The name aardvark means earth pig",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Aardvark_%28Orycteropus_afer%29.jpg"
     },
     "antelope": {
         "hair": "true",
@@ -35,7 +38,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Antelopes are extremely intelligent",
+        "endangered": "true",
+        "picture": "https://a-z-animals.com/media/antelope-1-768x512.jpg"
     },
     "bass": {
         "hair": "false",
@@ -54,7 +60,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Bass swim at 2.5 times their body length per second",
+        "endangered": "false",
+        "picture": "https://www.maine.gov/ifw/images/largemouthbass.jpg"
     },
     "bear": {
         "hair": "true",
@@ -73,7 +82,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Bears can walk a short distance on their hind legs",
+        "endangered": "true",
+        "picture": "https://www.thoughtco.com/thmb/6Jkyn0aJ27K7H-CwmL9UbvbfQxg=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/getty-brown-bear-56afcf215f9b58b7d01d5195.jpg"
     },
     "boar": {
         "hair": "true",
@@ -92,7 +104,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Boars use their long snouts to dig underground roots",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg"
     },
     "buffalo": {
         "hair": "true",
@@ -111,7 +126,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Buffalo are known to kill lions",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/13/African_buffalo_%28Syncerus_caffer_caffer%29_male_with_cattle_egret.jpg"
     },
     "calf": {
         "hair": "true",
@@ -130,7 +148,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Newborn calves can see, stand and walk",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/21/New_Forest_calf.jpg"
     },
     "carp": {
         "hair": "false",
@@ -149,7 +170,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "carp can live up to 20 years",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cyprinus_carpio.jpeg"
     },
     "catfish": {
         "hair": "false",
@@ -168,7 +192,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Catfish can be found in all continents except Antarctica",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ameiurus_melas_by_Duane_Raver.png"
     },
     "cavy": {
         "hair": "true",
@@ -187,7 +214,10 @@
         "tail": "false",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "cavies eat their own poop",
+        "endangered": "false",
+        "picture": "https://cubcreeksciencecamp.com/wp-content/uploads/2019/12/PatagonianCavy.jpg"
     },
     "cheetah": {
         "hair": "true",
@@ -206,7 +236,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Cheetahs are the fastest land animals on Earth",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/09/TheCheethcat.jpg"
     },
     "chicken": {
         "hair": "false",
@@ -225,7 +258,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Chickens can distinguish between more than 100 faces",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/84/Male_and_female_chicken_sitting_together.jpg"
     },
     "chub": {
         "hair": "false",
@@ -244,7 +280,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Often referred to as a minnow",
+        "endangered": "false", 
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sectator_azureus.jpg"
     },
     "clam": {
         "hair": "false",
@@ -263,7 +302,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "There are over 15,000 species of clam in the world",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Clams_on_Sandy_Hook_beaches_-_panoramio.jpg"
     },
     "crab": {
         "hair": "false",
@@ -282,7 +324,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Crabs can walk in all directions",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Liocarcinus_vernalis.jpg"
     },
     "crayfish": {
         "hair": "false",
@@ -301,7 +346,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Crawfish can be blue, green, white, or yellow before they are cooked",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Paranephrops.jpg"
     },
     "crow": {
         "hair": "false",
@@ -320,7 +368,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Crows can solve puzzles that human children can solve",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Corvus_corone_-near_Canford_Cliffs%2C_Poole%2C_England-8.jpg"
     },
     "deer": {
         "hair": "true",
@@ -339,7 +390,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Male deer are called bucks while female deer are called does",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Red_Deer_in_Richmond_Park_-_geograph.org.uk_-_2025081.jpg"
     },
     "dogfish": {
         "hair": "false",
@@ -358,7 +412,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "dogfish can live more than 80 years",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squalus_acanthias_stellwagen.jpg"
     },
     "dolphin": {
         "hair": "false",
@@ -377,7 +434,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Dolphins can reach speeds of over 30 mph for brief periods",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Comdolph.jpg"
     },
     "dove": {
         "hair": "false",
@@ -396,7 +456,11 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Doves have feathers that are loosely attached to their bodies",
+        "endangered": "false",
+        "picture" : "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mourning_Dove_2006.jpg"
+
     },
     "duck": {
         "hair": "false",
@@ -415,7 +479,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Ducklings communicate with eachother before hatching",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Bucephala-albeola-010.jpg"
     },
     "elephant": {
         "hair": "true",
@@ -434,7 +501,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Elephants are the world's larget land animal",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg"
     },
     "flamingo": {
         "hair": "false",
@@ -453,7 +523,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Flamingo nests are made of mud",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flamingos_Laguna_Colorada.jpg"
     },
     "flea": {
         "hair": "false",
@@ -472,7 +545,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Fleas can jump around 30 thousand times in a row",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flea_Scanning_Electron_Micrograph_False_Color.jpg"
     },
     "frog": {
         "hair": "false",
@@ -491,7 +567,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Amphibian"
+        "class_type": "Amphibian",
+        "fact": "Frogs have excellent night vision",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/39/European_Common_Frog_Rana_temporaria.jpg"
     },
     "fruitbat": {
         "hair": "true",
@@ -510,7 +589,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Bats eat thousands of mosquitoes at night",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/52/Little_Red_Flying_Foxes.jpg"
     },
     "giraffe": {
         "hair": "true",
@@ -529,26 +611,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
-    },
-    "girl": {
-        "hair": "true",
-        "feathers": "false",
-        "eggs": "false",
-        "milk": "true",
-        "airborne": "false",
-        "aquatic": "false",
-        "predator": "true",
-        "toothed": "true",
-        "backbone": "true",
-        "breathes": "true",
-        "venomous": "false",
-        "fins": "false",
-        "legs": "2",
-        "tail": "false",
-        "domestic": "true",
-        "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Giraffes are the tallest mammals on Earth",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Giraffe_Mikumi_National_Park.jpg"
     },
     "gnat": {
         "hair": "false",
@@ -567,7 +633,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Gnats can lay up to 300 eggs in a single day",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Hooke-gnat.jpg"
     },
     "goat": {
         "hair": "true",
@@ -586,7 +655,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Goats were one of the first animals to be tamed by humans",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg"
     },
     "gorilla": {
         "hair": "true",
@@ -605,7 +677,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Gorillas can weight over 200kg",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg"
     },
     "gull": {
         "hair": "false",
@@ -624,7 +699,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Gulls can live for 10-15 years in the wild",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Seagull_in_flight_by_Jiyang_Chen.jpg"
     },
     "haddock": {
         "hair": "false",
@@ -643,7 +721,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Haddock can reach one to three feet in length",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Haddock%2C_Boston_Aquarium.JPG"
     },
     "hamster": {
         "hair": "true",
@@ -662,7 +743,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Hamsters are very fast runners",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/Cashew_sable_syrian_hamster.jpg"
     },
     "hare": {
         "hair": "true",
@@ -681,7 +765,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Hares are larger than rabbits and have longer ears",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Scrub_Hare_%28Lepus_saxatilis%29_close-up_%2830544290256%29_%282%29.jpg"
     },
     "hawk": {
         "hair": "false",
@@ -700,7 +787,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Hawks have excellent eyesight",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/81/Northern_Goshawk_ad_M2.jpg" 
     },
     "herring": {
         "hair": "false",
@@ -719,7 +809,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "The herring is an extremely thin fish",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Clupea_harengus_Gervais.flipped.jpg"
     },
     "honeybee": {
         "hair": "true",
@@ -738,7 +831,10 @@
         "tail": "false",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Honney Bees typically make about 1/12 a teaspoon of honey in its life time",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/11/The_Lone_Pollinator.jpg"
     },
     "housefly": {
         "hair": "true",
@@ -757,7 +853,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Houseflies can see around them in a nearly 360-degree field of view",
+        "endangered": "false",
+        "picture": "https://cdn.rentokil.com/content/local/us-wst/images/desktop/main_fly-eyes-desk.jpg"
     },
     "kiwi": {
         "hair": "false",
@@ -776,9 +875,12 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Kiwis moult their feathers throughout the year",
+        "endangered": "false", 
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/82/TeTuatahianui.jpg"
     },
-    "ladybird": {
+    "ladybug": {
         "hair": "false",
         "feathers": "false",
         "eggs": "true",
@@ -795,7 +897,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "A ladybug can eat up to 5,000 insects in its lifetime",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Coccinella_magnifica01.jpg"
     },
     "lark": {
         "hair": "false",
@@ -814,7 +919,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Larks are found mainly in Australia",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Alauda_arvensis_Linnaeus_1758.jpg"
     },
     "leopard": {
         "hair": "true",
@@ -833,7 +941,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Leopards are extremely difficult to trace and locate in the wild",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/70/African_leopard_male_%28cropped%29.jpg"
     },
     "lion": {
         "hair": "true",
@@ -852,7 +963,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Lions are the only cats to live in groups",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"
     },
     "lobster": {
         "hair": "false",
@@ -871,7 +985,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Lobsters were once considered the poor man's chicken",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0b/KreeftbijDenOsse.jpg"
     },
     "lynx": {
         "hair": "true",
@@ -890,7 +1007,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "The lynx is more than twice the size of a house cat", 
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg"
     },
     "mink": {
         "hair": "true",
@@ -909,7 +1029,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "minks communicate using odors, visual signals, and other sounds",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a0/American_Mink.jpg"
     },
     "mole": {
         "hair": "true",
@@ -928,7 +1051,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Moles can dig up to 18 feet in one hour",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/44/Kret_mole.jpg"
     },
     "mongoose": {
         "hair": "true",
@@ -947,7 +1073,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "some mongooses are semi-aquatic",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/96/Herpestes_edwardsii_at_Hyderaba.jpg"
     },
     "moth": {
         "hair": "true",
@@ -966,7 +1095,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Moths have an extremely strong sense of smell",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/20/Opodiphthera_eucalypti_male.jpg"
     },
     "newt": {
         "hair": "false",
@@ -985,7 +1117,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Amphibian"
+        "class_type": "Amphibian",
+        "fact": "Newts have the ability to regenerate limbs",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Uhandre_goimenditarra.jpg"
     },
     "octopus": {
         "hair": "false",
@@ -1004,7 +1139,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Octupuses have three hearts",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/57/Octopus2.jpg"
     },
     "opossum": {
         "hair": "true",
@@ -1023,7 +1161,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Opossums can play dead for up to four hours",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/07/Didelphis_virginiana_with_young.JPG"
     },
     "oryx": {
         "hair": "true",
@@ -1042,7 +1183,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Oryxes  have a lifespan of about 20 years",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/59/Oryx_gazella_male_8054.jpg"
     },
     "ostrich": {
         "hair": "false",
@@ -1061,7 +1205,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Ostriches have the largest eyes of any land mammal",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg"
     },
     "parakeet": {
         "hair": "false",
@@ -1080,7 +1227,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Some parakeets are able to mimic some of your words",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Male_and_female_parakeet_1.jpg"
     },
     "penguin": {
         "hair": "false",
@@ -1099,7 +1249,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Penguins evolved to fly underwater",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
     },
     "pheasant": {
         "hair": "false",
@@ -1118,7 +1271,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Pheasants do not migrate like other birds",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pheasant.jpg"
     },
     "pike": {
         "hair": "false",
@@ -1137,7 +1293,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Pikes are carnivorous predators",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/Esox_lucius_ZOO_1.jpg"
     },
     "piranha": {
         "hair": "false",
@@ -1156,7 +1315,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Piranhas in South America are usually kept as pets",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg"
     },
     "pitviper": {
         "hair": "false",
@@ -1175,7 +1337,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Reptile"
+        "class_type": "Reptile",
+        "fact": "Pit vipers are able to sense body heat from animals",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Crotalus_horridus_%281%29.jpg"
     },
     "platypus": {
         "hair": "true",
@@ -1194,7 +1359,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Platypuses are venomous",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wild_Platypus_4.jpg"
     },
     "polecat": {
         "hair": "true",
@@ -1213,7 +1381,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Polecats have very thick and silky brown fur",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Polecat_in_denmark.jpg"
     },
     "pony": {
         "hair": "true",
@@ -1232,7 +1403,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Ponies have thicker manes and tails than horses",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gracie-rhs2005.jpg"
     },
     "porpoise": {
         "hair": "false",
@@ -1251,7 +1425,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Porpoises have extremely sensitive hearing",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/73/Phocoena_phocoena.2.jpg"
     },
     "puma": {
         "hair": "true",
@@ -1270,7 +1447,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Pumas are very good climbers and also know how to swim",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2e/CMM_MountainLion.jpg"
     },
     "pussycat": {
         "hair": "true",
@@ -1289,7 +1469,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "pussycat paws are extremely sensitive",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/39/Feral_cat_1.JPG"
     },
     "raccoon": {
         "hair": "true",
@@ -1308,7 +1491,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Raccoons have been around for 40,000 years",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Raccoon_climbing_in_tree_-_Cropped_and_color_corrected.jpg"
     },
     "reindeer": {
         "hair": "true",
@@ -1327,7 +1513,10 @@
         "tail": "true",
         "domestic": "true",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Both male and femal reindeer grow antlers",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg"
     },
     "rhea": {
         "hair": "false",
@@ -1346,7 +1535,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Rheas have very long wings despite being flightless birds",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Greater_rhea_pair_arp.jpg"
     },
     "scorpion": {
         "hair": "false",
@@ -1365,7 +1557,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Scorpions glow in the dark",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Scorpion_Photograph_By_Shantanu_Kuveskar.jpg"
     },
     "seahorse": {
         "hair": "false",
@@ -1384,7 +1579,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "Seahorses prefer to swim in pairs with their tails linked together",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg"
     },
     "seal": {
         "hair": "true",
@@ -1403,7 +1601,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Seals can live up to 35 years in the wild",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Seehund.jpg"
     },
     "sealion": {
         "hair": "true",
@@ -1422,7 +1623,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Sea lions are extremely skilled hunters",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/74/California_sea_lion_in_La_Jolla_%2870568%29.jpg"
     },
     "seasnake": {
         "hair": "false",
@@ -1441,7 +1645,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Reptile"
+        "class_type": "Reptile",
+        "fact": "There are 69 species of sea snakes",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Pelamis_platura%2C_Costa_Rica.jpg"
     },
     "seawasp": {
         "hair": "false",
@@ -1460,7 +1667,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Sea wasp venom can kill people in as few as three minutes",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Avispa_marina_cropped.png"
     },
     "skimmer": {
         "hair": "false",
@@ -1479,7 +1689,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Skimmers are the only birds with distinctive uneven bills",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/27/Black_skimmer_%28Rynchops_niger%29_in_flight.jpg"
     },
     "skua": {
         "hair": "false",
@@ -1498,7 +1711,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Skuas are extremely aggressive in protecting their nesting sites",
+        "endangered": "false",
+        "picture":"https://upload.wikimedia.org/wikipedia/commons/0/0d/Stercorarius_pomarinusPCCA20070623-3985B.jpg"
     },
     "slowworm": {
         "hair": "false",
@@ -1517,7 +1733,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Reptile"
+        "class_type": "Reptile",
+        "fact": "slow worms can eat up to 20 slugs in 20 minutes",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Anguidae.jpg"
     },
     "slug": {
         "hair": "false",
@@ -1536,7 +1755,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "slugs have both female and male organs and can fertilize their own eggs",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ambigolimax.jpg"
     },
     "sole": {
         "hair": "false",
@@ -1555,7 +1777,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "As larva, Soles have eyes on either side of their bodies",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Solea_solea_1.jpg"
     },
     "sparrow": {
         "hair": "false",
@@ -1574,7 +1799,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Sparrow live close to humans because of the constant supply of food",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Passer_domesticus_male_%2815%29.jpg"
     },
     "squirrel": {
         "hair": "true",
@@ -1593,7 +1821,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Squirrels can find food buried beneath a foot of snow",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Sciurus_carolinensis_-British_Columbia%2C_Canada-8.jpg"
     },
     "starfish": {
         "hair": "false",
@@ -1612,7 +1843,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact": "Starfish have no brain and no blood",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Fromia_monilis_%28Seastar%29.jpg"
     },
     "stingray": {
         "hair": "false",
@@ -1631,7 +1865,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Fish"
+        "class_type": "Fish",
+        "fact": "stingrays are purely carnivorous",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Stingray.jpg"
     },
     "swan": {
         "hair": "false",
@@ -1650,7 +1887,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Swans can have winspans up to 10 feet",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Cygnus_olor_2_%28Marek_Szczepanek%29.jpg"
     },
     "termite": {
         "hair": "false",
@@ -1669,7 +1909,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Termites never sleep",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg"
     },
     "toad": {
         "hair": "false",
@@ -1688,7 +1931,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Amphibian"
+        "class_type": "Amphibian",
+        "fact": "Toads have dry warty skin and shorter legs than frogs",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bombina_bombina_1_%28Marek_Szczepanek%29.jpg"
     },
     "tortoise": {
         "hair": "false",
@@ -1707,7 +1953,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Reptile"
+        "class_type": "Reptile",
+        "fact": "Tortoises can live to over 100 years old",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/aa/A._gigantea_Aldabra_Giant_Tortoise.jpg"
     },
     "tuatara": {
         "hair": "false",
@@ -1726,7 +1975,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Reptile"
+        "class_type": "Reptile",
+        "fact": "Although how similar it looks to a lizard, tuataras are not lizards",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tuatara_%285205719005%29.jpg"
     },
     "tuna": {
         "hair": "false",
@@ -1745,26 +1997,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Fish"
-    },
-    "vampire": {
-        "hair": "true",
-        "feathers": "false",
-        "eggs": "false",
-        "milk": "true",
-        "airborne": "true",
-        "aquatic": "false",
-        "predator": "false",
-        "toothed": "true",
-        "backbone": "true",
-        "breathes": "true",
-        "venomous": "false",
-        "fins": "false",
-        "legs": "2",
-        "tail": "true",
-        "domestic": "false",
-        "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Fish",
+        "fact": "Tuna can live for 35 years, sometimes even longer",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/72/TunaFish.JPG"
     },
     "vole": {
         "hair": "true",
@@ -1783,7 +2019,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Voles are typically referred to as field mice",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bank_vole.jpg"
     },
     "vulture": {
         "hair": "false",
@@ -1802,7 +2041,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "Vultures can glide for hours at a time looking for their next meals",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bartgeier_Gypaetus_barbatus_front_Richard_Bartz.jpg"
     },
     "wallaby": {
         "hair": "true",
@@ -1821,7 +2063,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "A wallaby's tail is about the same length as its body",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/74/Red_necked_wallaby444.jpg"
     },
     "wasp": {
         "hair": "true",
@@ -1840,7 +2085,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bug"
+        "class_type": "Bug",
+        "fact": "Wasps can be found everywhere except Antarctica",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/59/Vespula_germanica_Richard_Bartz.jpg"
     },
     "wolf": {
         "hair": "true",
@@ -1859,7 +2107,10 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "true",
-        "class_type": "Mammal"
+        "class_type": "Mammal",
+        "fact": "Wolves are the largest members of the dog family",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kolm%C3%A5rden_Wolf.jpg"
     },
     "worm": {
         "hair": "false",
@@ -1878,7 +2129,10 @@
         "tail": "false",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Invertebrate"
+        "class_type": "Invertebrate",
+        "fact":"A worm has no arms, legs or eyes",
+        "endangered": "false",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/Regenwurm1.jpg"
     },
     "wren": {
         "hair": "false",
@@ -1897,6 +2151,9 @@
         "tail": "true",
         "domestic": "false",
         "catsize": "false",
-        "class_type": "Bird"
+        "class_type": "Bird",
+        "fact": "The wren is easily recognized by its upward pointing tail and darting flight",
+        "endangered": "true",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Cistothorus_palustris_Iona.jpg"
     }
 }

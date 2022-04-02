@@ -23,34 +23,68 @@
         <div class="jumbotron text-center" style="background-color:rgb(43, 39, 39)">
             <h1 class="display-1">ANIMAL</h1>
         </div>
+        
+        <div class="row center">
+            <div class="col-md-4" style="width: 500px;">
+                <div class="ui-widget">
+                    <input id="guess-0" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess-0').value);">    
+                </div>
+            </div>
+            
+            <div id="match-0" class="col-md-7">
+                
+            </div>
+        </div>
 
         <div class="row center">
             <div class="col-md-4" style="width: 500px;">
                 <div class="ui-widget">
-                    <input id="guess" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess').value);">    
+                    <input disabled id="guess-1" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess-1').value);">    
                 </div>
             </div>
             
-            <div id="match" class="col-md-7">
-              <p style="display: inline; color:greenyellow">hair</p>
-              <p style="display: inline; color: gray">feather</p>
-              <p style="display: inline; color:greenyellow">milk</p>
-              <p style="display: inline; color: greenyellow">egg</p>
-              <p style="display: inline; color:greenyellow">airborne</p>
-              <p style="display: inline; color: gray">aquatic</p>
-              <p style="display: inline; color:greenyellow">preadator</p>
-              <p style="display: inline; color: greenyellow">toothed</p>
-              <p style="display: inline; color:greenyellow">backbone</p>
-              <p style="display: inline; color: gray">breathes</p>
-              <p style="display: inline; color:greenyellow">venomous</p>
-              <p style="display: inline; color: greenyellow">fins</p>
-              <p style="word-spacing: 2px;display: inline; color:greenyellow">2 legs</p>
-              <p style="display: inline; color: gray">tail</p>
-              <p style="display: inline; color:greenyellow">domestic</p>
-              <p style="display: inline; color:gray">bird</p>
+            <div id="match-1" class="col-md-7">
+                
             </div>
         </div>
 
+        <div class="row center">
+            <div class="col-md-4" style="width: 500px;">
+                <div class="ui-widget">
+                    <input disabled id="guess-2" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess-2').value);">    
+                </div>
+            </div>
+            
+            <div id="match-2" class="col-md-7">
+                
+            </div>
+        </div>
+
+        <div class="row center">
+            <div class="col-md-4" style="width: 500px;">
+                <div class="ui-widget">
+                    <input disabled id="guess-3" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess-3').value);">    
+                </div>
+            </div>
+            
+            <div id="match-3" class="col-md-7">
+                
+            </div>
+        </div>
+
+        <div class="row center">
+            <div class="col-md-4" style="width: 500px;">
+                <div class="ui-widget">
+                    <input disabled id="guess-4" type="text" maxlength="30" onKeyDown="if(event.keyCode==13) guess(document.getElementById('guess-4').value);">    
+                </div>
+            </div>
+            
+            <div id="match-4" class="col-md-7">
+                
+            </div>
+        </div>
+
+    
     </body>
 
 </html>
