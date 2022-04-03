@@ -87,14 +87,14 @@ class Session {
                 if(correctList[i] == guessList[i]) {
                     result.push([correctList[i], true]);
                 }else{
-                    result.push([correctList[i], false]);
+                    result.push([guessList[i], false]);
                 }
             
             }else if(i == 16) {
                 if(correctList[i] == guessList[i]) {
                     result.push([correctList[i], true]);
                 }else{
-                    result.push([correctList[i], false]);
+                    result.push([guessList[i], false]);
                 }
             
             }else if(correctList[i] == guessList[i] && correctList[i] == 'true') {
