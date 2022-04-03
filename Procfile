@@ -1,1 +1,2 @@
-web: gunicorn --bind 0.0.0.0:$PORT app:main
+web: cd app
+web: flask run
