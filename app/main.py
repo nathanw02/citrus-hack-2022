@@ -9,7 +9,7 @@ socketio = SocketIO(app)
 MAX_GUESSES = 5
 sessions = {}
 
-with open('citrus-hack-2022\\app\\animals.json') as json_file:
+with open('animals.json') as json_file:
     animals = json.load(json_file)
 
 @app.route('/')
@@ -20,7 +20,6 @@ def index():
 def connection(id):
     newSession = Session(id)
     sessions[id] = newSession
-    print(newSession.animal)
 
 @socketio.on('disconnect')
 def disconnect(id):
@@ -104,5 +103,5 @@ class Session:
         return {'match': result}
 
 if __name__ == '__main__':
-    socketio.run(app)
+    socketio.run(app, debug=True)
 
