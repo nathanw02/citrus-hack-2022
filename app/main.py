@@ -9,7 +9,7 @@ socketio = SocketIO(app)
 MAX_GUESSES = 5
 sessions = {}
 
-with open('animals.json') as json_file:
+with open('app\\animals.json') as json_file:
     animals = json.load(json_file)
 
 @app.route('/')
@@ -101,7 +101,4 @@ class Session:
                 result.append([0, 0])
         
         return {'match': result}
-
-if __name__ == '__main__':
-    socketio.run(app)
 
