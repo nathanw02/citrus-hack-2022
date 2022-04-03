@@ -24,29 +24,33 @@ io.on('connection', (socket) => {
     socket.on('guess', (data) => {
         let id = data.session;
 
+        if(!sessions.hasOwnProperty(id)) {
+            return;
+        }
+
         let session = sessions[id];
 
         let animalGuess = data.guess;
 
         if(animalGuess == session.animal) {
-            io.emit('matchResponse', session.match(animalGuess));
-            return io.emit('win', {
+            io.to(id).emit('matchResponse', session.match(animalGuess));
+            return io.to(id).emit('win', {
                 'animal': session.animal,
                 'data': animals[session.animal]
             });
         }
 
         if(session.guesses >= MAX_GUESSES - 1) {
-            io.emit('matchResponse', session.match(animalGuess));
-            return io.emit('lose', {
+            io.to(id).emit('matchResponse', session.match(animalGuess));
+            return io.to(id).emit('lose', {
                 'animal': session.animal,
                 'data': animals[session.animal]
             });
         }
 
-        if(!animals.hasOwnProperty(animalGuess)) return io.emit('error', {'error': 'Invalid input'});
+        if(!animals.hasOwnProperty(animalGuess)) return io.to(id).emit('error', {'error': 'Invalid input'});
 
-        io.emit('matchResponse', session.match(animalGuess));
+        io.to(id).emit('matchResponse', session.match(animalGuess));
 
         session.guesses++;
 
