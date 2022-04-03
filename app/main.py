@@ -28,7 +28,6 @@ def disconnect(id):
 
 @socketio.on('guess')
 def guess(data):
-    print('data:', data)
     id = data['session']
 
     session = sessions[id]
@@ -36,15 +35,17 @@ def guess(data):
     animalGuess = data['guess']
 
     if animalGuess == session.animal:
+        emit('matchResponse', session.match(data['guess']))
         return emit('win', {
             'animal': session.animal, 
             'data': animals[session.animal]
         })
 
     if session.guesses >= MAX_GUESSES-1:
+        emit('matchResponse', session.match(data['guess']))
         return emit('lose', {
             'animal': session.animal, 
-            'data': animals[session.animal]
+            'data': animals[session.animal],
         })
 
     if animalGuess not in animals:

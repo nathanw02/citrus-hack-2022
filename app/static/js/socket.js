@@ -1,7 +1,7 @@
 var socket = io();
 
 
-let attributes = ['hair', 'feather', 'milk', 'egg', 'airborne', 'aquatic', 'predator', 'toothed', 'backbone', 'breathes', 'venomous', 'fins', 'legs', 'tail', 'domestic']
+let attributes = ['hair', 'feather', 'egg', 'milk', 'airborne', 'aquatic', 'predator', 'toothed', 'backbone', 'breathes', 'venomous', 'fins', 'legs', 'tail', 'domestic']
     
 
 let inputs = document.getElementsByTagName('input')
@@ -18,9 +18,11 @@ socket.on('win', function(data) {
     let animal = data.animal;
     let pic = document.getElementById('picture');
     pic.src = data.data.picture;
-    animalTag.innerText = 'Nice! Well done! The animal is: ' + animal;
-    factTag.innerText = data.data.fact;
+    pic.setAttribute('style', 'border-style: solid; border-color: #4BD710; width: 18%; height: 18%');
 
+    animalTag.innerText = 'Nice! Well done! The animal is: ' + animal;
+    factTag.innerText = 'Fun fact: ' + data.data.fact;
+    
     if(data.data.endangered === 'true'){
         let endangeredTag = document.getElementById('endangered');
         endangeredTag.innerText = 'This animal is endangered';
@@ -35,8 +37,9 @@ socket.on('lose', function(data){
     let animal = data.animal;
     let pic = document.getElementById('picture');
     pic.src = data.data.picture;
+    pic.setAttribute('style', 'border-style: solid; border-color: red; width: 18%; height: 18%');
     animalTag.innerText = 'The correct animal was: ' + animal;
-    factTag.innerText = data.data.fact
+    factTag.innerText = 'Fun fact: ' + data.data.fact;
 
     if(data.data.endangered === 'true'){
         let endangeredTag = document.getElementById('endangered');
@@ -93,30 +96,11 @@ socket.on('matchResponse', function(match) {
     }
     
     inputs[currentInput].disabled = true;
-    currentInput++;
-    if(currentInput < 5){
+    if(currentInput < 4){
+        currentInput++;
         inputs[currentInput].disabled = false;
     }
     
-    /*
-     <p style="display: inline; color:greenyellow">hair</p>
-    <p style="display: inline; color: gray">feather</p>
-    <p style="display: inline; color:greenyellow">milk</p>
-    <p style="display: inline; color: greenyellow">egg</p>
-    <p style="display: inline; color:greenyellow">airborne</p>
-    <p style="display: inline; color: gray">aquatic</p>
-    <p style="display: inline; color:greenyellow">preadator</p>
-    <p style="display: inline; color: greenyellow">toothed</p>
-    <p style="display: inline; color:greenyellow">backbone</p>
-    <p style="display: inline; color: gray">breathes</p>
-    <p style="display: inline; color:greenyellow">venomous</p>
-    <p style="display: inline; color: greenyellow">fins</p>
-    <p style="word-spacing: 2px;display: inline; color:greenyellow">2 legs</p>
-    <p style="display: inline; color: gray">tail</p>
-    <p style="display: inline; color:greenyellow">domestic</p>
-    <p style="display: inline; color:gray">bird</p>
-    */
-
 });
 
 socket.on('error', function(err){
@@ -124,5 +108,5 @@ socket.on('error', function(err){
 });
 
 function guess(animal){
-    socket.emit('guess', {'session': socket.id, 'guess': animal});
+    socket.emit('guess', {'session': socket.id, 'guess': animal.toLowerCase()});
 }
