@@ -85,16 +85,16 @@ class Session {
 
             if(i == 12) {
                 if(correctList[i] == guessList[i]) {
-                    result.push([parseInt(correctList[i]), true]);
+                    result.push([correctList[i], true]);
                 }else{
-                    result.push([parseInt(correctList[i]), false]);
+                    result.push([correctList[i], false]);
                 }
             
             }else if(i == 16) {
                 if(correctList[i] == guessList[i]) {
-                    result.push([parseInt(correctList[i]), true]);
+                    result.push([correctList[i], true]);
                 }else{
-                    result.push([parseInt(correctList[i]), false]);
+                    result.push([correctList[i], false]);
                 }
             
             }else if(correctList[i] == guessList[i] && correctList[i] == 'true') {
@@ -108,6 +108,8 @@ class Session {
             }
 
         }
+
+        console.log(result);
 
         return {'match': result};
 
